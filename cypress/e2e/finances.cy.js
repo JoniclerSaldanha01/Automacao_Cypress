@@ -2,8 +2,10 @@
 
 
 describe('Transações', () => {
-
+    const baseUrl = Cypress.env('baseUrl');
 beforeEach(() => {
+    
+
     cy.visit("https://devfinance-agilizei.netlify.app/#")
 });
 
